@@ -1,0 +1,27 @@
+{
+  "name": "linter-slime-lint",
+  "version": "0.0.0",
+  "main": "./lib/main.js",
+  "description": "Lint Common Lisp on save using SLIME.",
+  "keywords": [
+    "common lisp",
+    "lisp",
+    "slime",
+    "lint"
+  ],
+  "repository": "https://github.com/saulshanabrook/atom-linter-slime-lint",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^5.0.2"
+  }
+}
