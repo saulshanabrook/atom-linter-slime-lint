@@ -2,7 +2,7 @@
 
 Lints your Common Lisp (`source.lisp` or `source.common-lisp`) files by trying compiling them in Slime.
 
-![screenshot](./screenshot.png)
+![screenshot](https://raw.githubusercontent.com/saulshanabrook/atom-linter-slime-lint/master/screenshot.png)
 
 ```bash
 apm install linter-slime-lint
